@@ -1,4 +1,4 @@
-## Interface: 20504
+## Interface: 30400
 ## Title: SkuBeaconSoundsets (20)
 ## Version: 20
 Core.lua
