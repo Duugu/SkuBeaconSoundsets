@@ -1,4 +1,5 @@
-## Interface: 30400
-## Title: SkuBeaconSoundsets (20)
-## Version: 20
+## Interface: 30402
+## Title: SkuBeaconSoundsets (21)
+## Version: 21
+## X-Curse-Project-ID: 880023
 Core.lua
