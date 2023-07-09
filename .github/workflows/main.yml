@@ -23,6 +23,7 @@ jobs:
     env:
       GITHUB_OAUTH: ${{ secrets.GITHUB_TOKEN }}  # "GITHUB_TOKEN" is a secret always provided to the workflow
                                                  # for your own token, the name cannot start with "GITHUB_"
+      CF_API_KEY: ${{ secrets.CF_API_KEY }}
 
     # "steps" holds a list of all the steps needed to package and release our AddOn
     steps:
@@ -38,4 +39,4 @@ jobs:
       - name: Package and release for wrath classic
         uses: BigWigsMods/packager@v2
         with:
-          args: -g wrath
+          args: -g wrath -p 880023 -l 
